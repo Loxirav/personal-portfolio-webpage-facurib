@@ -1,0 +1,416 @@
+  
+  @media only screen and (max-width:1600px) {
+    body {
+      background-color: white;
+    }
+  }
+
+* {
+  font-family: Poppins;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+#welcome-section {
+    height:100%;
+    text-align: center;
+    font-size: 200px;
+    background-color: rgb(139, 198, 198);
+  }
+  #navbar {
+    position:fixed;
+    top:0;
+    width:100%;
+    left:0;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 50px;
+    background: linear-gradient(rgb(84, 84, 84), transparent);
+    align-items: center;
+    z-index: 3;
+  }
+  #navbar-divider {
+    width:50%;
+  }
+  #navbar-content {
+    display:flex;
+    justify-content:space-evenly;
+    width:50%;
+  }
+
+.navbar-text {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.navbar-head {
+  width: 400px;
+  padding-left: 5%;
+}
+
+.bg-black {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.bg-black1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: -2;
+}
+.bg-black2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 200%;
+  z-index: -3;
+}
+.bg-black3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 300%;
+  z-index: -4;
+}
+
+.intro-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-item {
+  font-size: 50px;
+}
+
+.profile-pic {
+  height: auto;
+  width: 500px;
+  background: radial-gradient(white, rgb(103, 101, 101), rgb(59, 59, 59), transparent,transparent,transparent);
+  border-radius: 50%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+  display: flex;
+}
+
+.projects-box-content {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+
+.projects-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.home-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  font-size: 20px;
+}
+
+.icons-s {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 50px;
+}
+
+.home, .about, .projects, .contact {
+  width: 100%;
+  min-height: 97.7vh;
+}
+
+.home-desc {
+  width: 50%;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.about-desc {
+  padding-top: 0.5%;
+  width: 40%;
+  font-size: 20px;
+}
+
+.about-2 {
+  padding-left: 55%;
+}
+
+.about-1, .about-3 {
+  padding-left: 5%;
+}
+
+.banner {
+  position: absolute;
+  z-index: -1;
+  width: 55%;
+  height: 25%;
+}
+
+.banner-1 {
+  margin-top: 6%;
+}
+
+.banner-2 {
+  right: 0;
+  margin-top: 18.5%;
+}
+
+.banner-3 {
+  margin-top: 31.5%;
+}
+
+.contact-form {
+  background-color: rgba(129, 127, 127, 0.5);
+  border-radius: 10%;
+  padding: 5px 60px 50px 60px;
+  width: 100%;
+}
+
+.form-con {
+  padding-left: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-name, .form-email {
+  width: 100%;
+  font-size: 15px;
+  color: black;
+}
+
+.form-message {
+  width: 100%;
+  font-size: 15px;
+  color: black;
+}
+
+.form-submit {
+  background-color: white;
+  color: black;
+  width: 50%;
+  height: 7.5%;
+}
+
+.form-submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.fa-youtube:hover {
+  color: red;
+  background-color: white;
+  border-radius: 35%;
+}
+
+.fa-linkedin-in:hover {
+  color: rgba(10,102,194,255);
+}
+
+.fa-instagram:hover {
+ background: linear-gradient(45deg, red,rgb(222, 66, 66), rgb(231, 231, 75), rgb(255, 186, 197), rgb(165, 60, 165),  rgb(165, 60, 165));
+ border-radius: 25%;
+}
+
+.fa-facebook-f:hover {
+  color: rgba(59,89,152,255);
+}
+
+.navbar-text:hover {
+  color: rgb(255, 0, 0);
+}
+
+.projects-text {
+    color: red;
+    font-size: 25px;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle1 {
+  top: 245%;
+  left: 18.5%;
+}
+
+.middle2 {
+  top: 245%;
+  left: 34.2%;
+}
+
+.middle3 {
+  top: 245%;
+  left: 50%;
+}
+
+.middle4 {
+  top: 245%;
+  left: 66%;
+}
+
+.middle5 {
+  top: 245%;
+  left: 81.5%;
+}
+
+.middle6 {
+  top: 276.5%;
+  left: 18.5%;
+}
+
+.middle7 {
+  top: 276.5%;
+  left: 34.2%;
+}
+
+.middle8 {
+  top: 276.5%;
+  left: 50%;
+}
+
+.middle9 {
+  top: 276.5%;
+  left: 66%;
+}
+
+.middle10 {
+  top: 276.5%;
+  left: 81.5%;
+}
+
+.project01:hover .project1 {
+  opacity: 0.05;
+}
+
+.project01:hover .middle1 {
+  opacity: 2;
+}
+
+.project02:hover .project2 {
+  opacity: 0.05;
+}
+
+.project02:hover .middle2 {
+  opacity: 2;
+}
+
+.project03:hover .project3 {
+  opacity: 0.05;
+}
+
+.project03:hover .middle3 {
+  opacity: 2;
+}
+
+.project04:hover .project4 {
+  opacity: 0.05;
+}
+
+.project04:hover .middle4 {
+  opacity: 2;
+}
+
+.project05:hover .project5 {
+  opacity: 0.05;
+}
+
+.project05:hover .middle5 {
+  opacity: 2;
+}
+
+.project06:hover .project6 {
+  opacity: 0.05;
+}
+
+.project06:hover .middle6 {
+  opacity: 2;
+}
+
+.project07:hover .project7 {
+  opacity: 0.05;
+}
+
+.project07:hover .middle7 {
+  opacity: 2;
+}
+
+.project08:hover .project8 {
+  opacity: 0.05;
+}
+
+.project08:hover .middle8 {
+  opacity: 2;
+}
+
+.project09:hover .project9 {
+  opacity: 0.05;
+}
+
+.project09:hover .middle9 {
+  opacity: 2;
+}
+
+.project010:hover .project10 {
+  opacity: 0.05;
+}
+
+.project010:hover .middle10 {
+  opacity: 2;
+}
